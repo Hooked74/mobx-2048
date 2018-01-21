@@ -1,0 +1,36 @@
+.header {
+  display: grid;
+  grid-area: header;
+  margin: 60px 0 20px 0;
+
+  &__name {
+    font-size: 5.3em;
+    font-weight: 600;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    justify-self: start;
+  }
+
+  &__scores {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    justify-self: end;
+
+    > * + * {
+      margin-left: 5px;
+    }
+  }
+
+  &__description {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    justify-self: start;
+    align-self: center;
+  }
+
+  &__new-game {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-self: end;
+  }
+}

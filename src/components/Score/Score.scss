@@ -1,0 +1,21 @@
+.score {
+  background-color: #bbada0;
+  display: inline-block;
+  text-align: center;
+  min-width: 100px;
+  padding: 10px 0;
+  border-radius: 5px;
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #eee4da;
+  }
+
+  &__number {
+    color: white;
+    margin-top: 2px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}

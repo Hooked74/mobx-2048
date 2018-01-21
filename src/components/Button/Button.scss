@@ -1,0 +1,16 @@
+$buttonBgColor: #8f7a66;
+
+.button {
+  color: white;
+  background-color: $buttonBgColor;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  &:active {
+    background-color: darken($buttonBgColor, 10%);
+  }
+}

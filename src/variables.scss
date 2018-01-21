@@ -1,0 +1,10 @@
+$gridSize: 4;
+$gridCell: 110px;
+$gridGap: 15px;
+
+// prettier-ignore
+:export {
+  gridCell: $gridCell;
+  gridGap: $gridGap;
+  gridSize: $gridSize;
+}
